@@ -19,7 +19,7 @@ request_type_id: ID for category that the request falls under (eg, potholes = 48
 
 create_date_et: date ticket was created in ET
 
-last_action_et: last update made on the ticket
+last_action_et: last update made on the ticket 
 
 closed_date_et: date ticket was closed in ET
 
@@ -45,3 +45,4 @@ closed_date_filled: date ticket was closed in ET, but with the NA filled with
 request_status: status of ticket(
                 less than 30 days
                 more than 30 days)
+
