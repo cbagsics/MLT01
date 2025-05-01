@@ -8,22 +8,39 @@ To run this program, it is recommended that you use either Jupyter Notebook in a
 ** Required Libraries **
 
 import pandas as pd
+
 import numpy as np
+
 import seaborn as sns
+
 import matplotlib.pyplot as plt
+
 from sklearn.model_selection import StratifiedKFold, GridSearchCV
+
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
+
 from sklearn.compose import ColumnTransformer
+
 from sklearn.pipeline import Pipeline
+
 from sklearn.linear_model import LogisticRegression
+
 from sklearn.naive_bayes import GaussianNB
+
 from sklearn.ensemble import RandomForestClassifier
+
 from sklearn.svm import SVC
+
 from sklearn.metrics import precision_score, recall_score, f1_score, accuracy_score
+
 from sklearn.ensemble import VotingClassifier
+
 from sklearn.model_selection import GridSearchCV
+
 from sklearn.metrics import classification_report
+
 from sklearn.metrics import confusion_matrix
+
 from sklearn.metrics import roc_curve, auc, precision_recall_curve
 
 ** Files **
